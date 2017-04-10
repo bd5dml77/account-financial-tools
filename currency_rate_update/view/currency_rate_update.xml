@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
-<openerp>
-    <data>
+<odoo>
         <record model="ir.ui.view" id="currency_rate_update_tree">
             <field name="name">Update Rates service</field>
             <field name="model">currency.rate.update.service</field>
@@ -58,6 +57,4 @@
 
         <menuitem id="currency_rate_update_menu" action="currency_rate_update_action"
             parent="account.menu_finance_configuration" sequence="21"/>
-
-    </data>
-</openerp>
+</odoo>
